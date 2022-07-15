@@ -1,0 +1,88 @@
+
+/* 11) Give a maximum width to the body and center it into the page */
+body{
+    background-color: #0f2834;
+}
+
+.body{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid black; */
+    background-color: rgb(246, 247, 247);
+
+}
+
+/* 12) Set every h1 to be centered */
+h1{
+    text-align: center;
+}
+
+/* 13) Change the color of each link in the page */
+
+a{
+   color:cornflowerblue ;
+}
+
+/* 14) Create a class with a border assigned to it */
+/* 15) Set the previously created table to have rounded corners */
+
+.border{
+    border: 3px solid green;
+    width: 100%;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    margin-bottom: 30px;
+    /* border-collapse: collapse; */
+}
+/* 16) Add a margin between every paragraph */
+
+#container p{
+    margin: 10px;
+}
+
+/* 17) Create a class which changes font size and text weight when applied */
+
+.fonts{
+    font-size: 23px;
+    font-weight: 300;
+
+}
+
+/* 18) Create a class to hide a piece of content */
+
+
+.hide{
+    display: none;
+}
+
+/* 19) Add a green border to each <td> */
+
+td {
+    border-top: 3px dotted red;
+    border-bottom: 3px dotted red;
+    border-right: 3px solid green;
+    border-left: 3px solid green;
+   /* margin: 3px; */
+    
+    /* border-collapse: collapse; */
+} 
+th{
+    border: 3px solid green;
+}
+
+/* {
+} */
+
+table, th, td{
+    border-collapse:collapse ;
+
+}
+
+.footer{
+    background-color: rgb(48, 37, 37);
+    color: cornflowerblue;
+}
+img{
+    width: 300px
+}
